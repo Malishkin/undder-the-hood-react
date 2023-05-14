@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div  className="app">
-     <h1>React под Капотом</h1>
+     <h1>React under the Hood</h1>
     </div>
   );
 }
