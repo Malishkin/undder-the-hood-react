@@ -5,6 +5,7 @@ import ParagpaphOutput from './components/Output/ParagraphOutout';
 
 function App() {
   const [isParagraphShown, setIsParagraphShown] = useState(false);
+  console.log('App running');
   const toogleParagraph = () => { 
     setIsParagraphShown(prevIsParagraphShown => !prevIsParagraphShown); };
   return (
