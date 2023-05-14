@@ -6,7 +6,7 @@ function App() {
   return (
     <div  className="app">
      <h1>React under the Hood</h1>
-     <p>New Paragraph</p>
+    {isParagraphShown && <p>New Paragraph</p>}
     </div>
   );
 }
