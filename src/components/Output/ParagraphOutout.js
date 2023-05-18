@@ -1,9 +1,9 @@
-
+import Paragraph from "./Paragraph";
 
 const ParagpaphOutput = (props) => {
-    console.log('Paragraph component running...');
+    console.log('ParagraphOutput component running...');
     return (
-        <p>{props.isShown ? 'New Paragraph': ''}</p>
+        <Paragraph>{ props.isShown ?"New Paragraph":""}</Paragraph> 
     );
 };
 
