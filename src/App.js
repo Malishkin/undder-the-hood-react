@@ -15,9 +15,8 @@ function App() {
     <div  className="app">
      <h1>React under the Hood</h1>
      <ParagpaphOutput isShown={isParagraphShown}/>
-     <Button onClick={toogleParagraph}>Toggle Paragraph</Button>
      <Button onClick={activateToggling}>Activate Switching</Button>
-    
+     <Button onClick={toogleParagraph}>Toggle Paragraph</Button>  
     </div>
   );
 }
