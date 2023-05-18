@@ -11,7 +11,7 @@ function App() {
   return (
     <div  className="app">
      <h1>React under the Hood</h1>
-     <ParagpaphOutput isShown={isParagraphShown}/>
+     <ParagpaphOutput isShown={false}/>
      <Button onClick={toogleParagraph}>Toggle Paragraph</Button>
     
     </div>

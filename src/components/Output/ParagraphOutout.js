@@ -1,4 +1,5 @@
 import Paragraph from "./Paragraph";
+import React from "react";
 
 const ParagpaphOutput = (props) => {
     console.log('ParagraphOutput component running...');
@@ -7,4 +8,4 @@ const ParagpaphOutput = (props) => {
     );
 };
 
-export default ParagpaphOutput;
+export default React.memo(ParagpaphOutput);
